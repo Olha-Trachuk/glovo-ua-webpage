@@ -1,0 +1,225 @@
+body {
+  font-family: Times New Roman, sans-serif;
+  font-size: 18px;
+
+  width: 100%;
+  width: calc(100% - 250px);
+}
+ul {
+  padding-left: 40px;
+}
+ul li {
+  padding-left: 1px;
+  list-style-type: disc;
+}
+h1 {
+  color: rgb(210, 105, 30);
+  font-size: 28px;
+  line-height: 2;
+}
+.subheading-info {
+  padding-left: 30px;
+  padding-bottom: 20px;
+  padding-top: 5px;
+  padding-right: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: rgba(0, 110, 255, 0.836);
+  background-color: #d6e7e99c;
+}
+.subheading-note {
+  padding-left: 30px;
+  padding-bottom: 20px;
+  padding-top: 5px;
+  padding-right: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: rgb(210, 105, 30);
+  background-color: #fcdb76;
+}
+.subheading-note-a {
+  padding-left: 30px;
+  padding-bottom: 20px;
+  padding-top: 5px;
+  padding-right: 30px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+  color: rgb(210, 105, 30);
+  background-color: #f6c55cc2;
+}
+.subheading-tip {
+  padding-left: 30px;
+  padding-bottom: 20px;
+  padding-top: 5px;
+  padding-right: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: rgb(20, 128, 38);
+  background-color: #94e4bf;
+}
+.note-list-item {
+  color: rgb(210, 105, 30);
+  font-weight: normal;
+  list-style-type: circle;
+}
+.tip-list-item {
+  color: rgb(20, 128, 38);
+  font-weight: normal;
+  list-style-type: circle;
+}
+.info-list-item {
+  color: rgba(0, 110, 255, 0.836);
+  font-weight: normal;
+  list-style-type: circle;
+}
+.note-list-text,
+.tip-list-text,
+.info-list-text {
+  color: black;
+}
+img {
+  width: 100%;
+}
+a:link {
+  color: rgb(210, 105, 30);
+  text-decoration: underline;
+}
+a:active {
+  color: #e98f19af;
+  text-decoration: underline;
+}
+a:visited {
+  color: #e98f19af;
+  text-decoration: underline;
+}
+a:hover {
+  color: #479d82;
+  text-decoration: underline;
+}
+
+header {
+  background-image: url("img/glovo-back-1-2-3.png");
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 20px;
+  padding-right: 0;
+  padding-left: 180px;
+  padding-bottom: 40px;
+  height: 160px;
+  width: 100%;
+  border-right: 60px solid #479d82;
+}
+
+.header-text {
+  text-align: left;
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffffff;
+  position: absolute;
+  height: 30px;
+  left: 900px;
+  top: 90px;
+}
+
+.header-title {
+  text-align: left;
+  font-size: 46px;
+  font-weight: 800;
+  color: #ffffff;
+  padding-left: 70px;
+}
+
+.sidenav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #0c9a82;
+  overflow-x: fixed;
+  padding: 16px 6 16px 6px;
+  border-right: 12px solid #f7c508;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+  font-kerning: normal;
+  color: rgb(248, 246, 244);
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f7c508;
+}
+
+.sidenav ul {
+  list-style-type: none;
+  padding: 0;
+  padding-top: 100px;
+}
+
+.main {
+  margin-left: 200px;
+  margin-right: 0;
+  margin-bottom: 180px;
+  margin-top: 0;
+  padding-left: 40px;
+}
+
+footer {
+  background-image: url("img/glovo-back-1-2-3.png");
+  background-attachment: fixed;
+  background-size: cover;
+  margin-left: 160px;
+  min-height: 160px;
+  width: 100%;
+  border-right: 60px solid #479d82;
+  padding: 20px 0 20px 22px;
+}
+.footer-text {
+  text-align: center;
+  left: 900px;
+  top: 130px;
+  font-weight: 600;
+  font-size: 26px;
+  color: #ffffff;
+  height: 30px;
+  padding-top: 30px;
+  padding-right: 40px;
+}
+
+.footer-text a {
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+}
+
+.footer-text a:hover {
+  color: #479d82;
+  text-decoration: none;
+}
+
+@media screen and (min: 600px) {
+  header,
+  footer {
+    width: 100%;
+  }
+}
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  padding: 10px;
+}
